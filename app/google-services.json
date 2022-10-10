@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "540949158175",
+    "firebase_url": "https://y231095-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "y231095",
+    "storage_bucket": "y231095.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540949158175:android:2bc93481f5cdb6b664382a",
+        "android_client_info": {
+          "package_name": "com.deliysuf.massagesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540949158175-c6rkopibb5nvl8rt7hue6pjkm5g0m8s8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQoO1C2xN2o-YHdu4HQK2MLFmnTvwo2Hw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540949158175-c6rkopibb5nvl8rt7hue6pjkm5g0m8s8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540949158175:android:d0954a635549235364382a",
+        "android_client_info": {
+          "package_name": "com.deliysuf.mesageaplicaiton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540949158175-c6rkopibb5nvl8rt7hue6pjkm5g0m8s8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQoO1C2xN2o-YHdu4HQK2MLFmnTvwo2Hw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540949158175-c6rkopibb5nvl8rt7hue6pjkm5g0m8s8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540949158175:android:a8595fd2323afa1f64382a",
+        "android_client_info": {
+          "package_name": "com.deliysuf.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540949158175-c6rkopibb5nvl8rt7hue6pjkm5g0m8s8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQoO1C2xN2o-YHdu4HQK2MLFmnTvwo2Hw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540949158175-c6rkopibb5nvl8rt7hue6pjkm5g0m8s8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540949158175:android:5ff35ef69de8939364382a",
+        "android_client_info": {
+          "package_name": "com.deliysuf.newappp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540949158175-c6rkopibb5nvl8rt7hue6pjkm5g0m8s8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQoO1C2xN2o-YHdu4HQK2MLFmnTvwo2Hw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540949158175-c6rkopibb5nvl8rt7hue6pjkm5g0m8s8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

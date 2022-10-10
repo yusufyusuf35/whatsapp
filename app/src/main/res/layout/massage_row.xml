@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="3dp"
+    >
+
+    <TextView
+
+        android:textColor="@color/teal_200"
+        android:background="@drawable/massage_shape"
+        android:id="@+id/senderText"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:padding="3dp"
+        android:text=""
+        android:textSize="20dp" />
+
+    <TextView
+        android:textColor="#1A203E"
+        android:background="@drawable/other_massagesshape"
+        android:id="@+id/receiverText"
+        android:padding="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="right"
+        android:text=""
+        android:textSize="20dp"/>
+
+</FrameLayout>

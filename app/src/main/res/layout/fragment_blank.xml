@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.BlankFragment"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/signIpEmailText"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/signInPasswordText"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <Button
+        android:background="@drawable/signin_background"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:id="@+id/sigInButtonEnter"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="signIn" />
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:id="@+id/signUpButtonEnter"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="signup" />
+</LinearLayout>

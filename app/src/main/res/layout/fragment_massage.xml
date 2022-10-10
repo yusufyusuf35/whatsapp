@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.MassageFragment"
+    android:orientation="vertical"
+    android:background="#12266C">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_weight="50"
+        android:id="@+id/MassageRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/recycler_background"
+        app:reverseLayout="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="15dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <EditText
+
+            android:id="@+id/textMassage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="12"
+            android:background="@drawable/edittext_background"
+            android:ems="10"
+            android:hint="WriteMassage"
+            android:inputType="textPersonName"
+            app:layout_constraintStart_toStartOf="@+id/MassageRecyclerView"
+            app:layout_constraintTop_toBottomOf="@+id/MassageRecyclerView" />
+
+        <ImageButton
+            android:layout_marginLeft="5dp"
+            android:id="@+id/MassageSendButton"
+            android:layout_width="13dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="2"
+            android:background="@drawable/button_background"
+
+            app:layout_constraintEnd_toEndOf="@+id/MassageRecyclerView"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/textMassage"
+            app:layout_constraintTop_toBottomOf="@+id/MassageRecyclerView" />
+    </LinearLayout>
+
+</LinearLayout>
